@@ -1,0 +1,16 @@
+@font-face {
+    font-family: 'Ubuntu_Bold';
+    src: local('Ubuntu_Bold'),
+      url('./fonts/Ubuntu-Bold.ttf') format('truetype');
+    font-weight: bold;
+  }
+.bold{
+    font-family: "Ubuntu_Bold";
+}
+.none{
+    border: none;
+    text-decoration: none;
+}
+body{
+    margin: 0;
+}

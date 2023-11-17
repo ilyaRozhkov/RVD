@@ -1,0 +1,50 @@
+.Container {
+    display: flex;
+    width: 100%;
+    height: 100%;
+}
+.Content {
+    width: 100%;
+    height: 100%;
+}
+.visible {
+
+    transition: 0.5s;
+}
+.unvisible{
+    transition: 0.5s;
+    filter: blur(5px);
+}
+.fields{
+    height: 100%;
+    width: 100%;
+}
+.content-line-container{
+    width: 100%;
+    height: 100%;
+    background-color: rgba( 25,25,25, 0.5);
+
+}
+.content-line-container-container{
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 30%;
+    text-align: center;
+    background-color: rgba( 160,160,160, 0.7);
+    filter: none;
+    display: flex;
+    align-items: center;
+}
+.content-line-container-container-text{
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    font-size: 36px;
+    filter: none;
+}
+.button-carausel{
+    border: none;
+    outline: none;
+    background-color: #FF5A30;
+}

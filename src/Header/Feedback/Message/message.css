@@ -1,0 +1,18 @@
+.message{
+    width: 188px;
+    height: 48px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+    align-items: center;
+}
+.message-text-us{
+    font-size: 14px;
+
+    margin: 0 0 2px 0;
+}
+.message-text-phone{
+    font-size: 18px;
+    margin: 0;
+}

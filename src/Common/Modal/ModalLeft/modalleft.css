@@ -1,0 +1,72 @@
+.modal-left{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+.modal-left-header{
+    width: 100%;
+    height: 30%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.modal-left-header-logo{
+    width: 100%;
+    height: 50%;
+    display: flex;
+    justify-content: center;
+
+}
+.modal-left-header-text{
+    width: 50%;
+    height: 50%;
+    align-items: center;
+
+
+}
+.modal-left-header-text-info{
+    text-align: center;
+    font-size: 24px
+}
+.modal-left-input{
+    width: 100%;
+    height: 70%;
+    display: flex;
+    flex-direction: column;
+    margin-top: 10px;
+
+}
+.modal-left-input-data{
+    width: 100%;
+    height: 20%;
+    display: flex;
+}
+.modal-left-input-data-input{
+    width: 100%;
+    height: 30px;
+
+}
+.modal-left-input-message{
+    width: 100%;
+    height: 60%;
+}
+.modal-left-input-message-input{
+    width: 98%;
+    height: 80%;
+    resize: none;
+    line-height: 20px;
+}
+.modal-left-input-message-input::placeholder{
+    color: gray;
+}
+.modal-left-input-submit{
+    width: 100%;
+    height: 60px;
+}
+.modal-left-input-submit-button{
+    width: 100%;
+    height: 60%;
+    background-color: black;
+    color: #ff4500;
+}

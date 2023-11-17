@@ -1,0 +1,23 @@
+.main {
+    top: 102px;
+    width: 100%;
+    height: 250vh;
+
+    position: absolute;
+    margin: 0;
+    padding: 0;
+}
+
+.main-first-level{
+    height: 90vh;
+    width: 100%;
+
+    margin: 0;
+    padding: 0;
+}
+.main-second-level{
+    height: 70vh;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}

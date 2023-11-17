@@ -1,0 +1,19 @@
+.hugs{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-evenly;
+}
+.hugs-button{
+    background-color: #FF5A30;
+    border-radius: 5px;
+    border: 1px solid #4f6d9c;
+    outline: none;
+    transition: 0.5s;
+}
+.hugs-button:hover{
+    box-shadow: 3px 3px 3px #4f6d9c;
+    transition: 0.5s;
+}
