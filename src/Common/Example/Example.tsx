@@ -1,18 +1,47 @@
 import React from 'react';
 import {motion} from "framer-motion";
 import './example.css'
-
+import example1 from '../../img/Example/example1.png'
+import example2 from '../../img/Example/example2.png'
+import example3 from '../../img/Example/example3.png'
+import example4 from '../../img/Example/example4.png'
+import example5 from '../../img/Example/example5.png'
+import example6 from '../../img/Example/example6.png'
 const Example = () => {
+
     return(
         <div className='example'>
-            <motion.div whileHover={{ scale: 2.5 }} className='example-container' style={{backgroundColor: 'red'}}></motion.div>
-            <motion.div whileHover={{ scale: 2.5 }} className='example-container' style={{backgroundColor: 'green'}}></motion.div>
-            <motion.div whileHover={{ scale: 2.5 }} className='example-container' style={{backgroundColor: 'blue'}}></motion.div>
-            <motion.div whileHover={{ scale: 2.5 }} className='example-container' style={{backgroundColor: 'black'}}></motion.div>
-            <motion.div whileHover={{ scale: 2.5 }} className='example-container' style={{backgroundColor: 'blue'}}></motion.div>
-            <motion.div whileHover={{ scale: 2.5 }} className='example-container' style={{backgroundColor: 'red'}}></motion.div>
-            <motion.div whileHover={{ scale: 2.5 }} className='example-container' style={{backgroundColor: 'black'}}></motion.div>
-            <motion.div whileHover={{ scale: 2.5 }} className='example-container' style={{backgroundColor: 'green'}}></motion.div>
+            <div className='example-container'>
+                <div className='example-container-title'>
+                    <h1 className='example-container-title-title bold'>Широкий ассортимент</h1>
+                </div>
+                <div className='example-container-container'>
+                    <motion.div whileHover={{ scale: 2 }} style={{backgroundImage: `url(${example1})`,
+                        backgroundRepeat: "no-repeat",
+                        backgroundSize: "cover"
+                    }} className='example-container-content'></motion.div>
+                    <motion.div whileHover={{ scale: 2, zIndex: 102 }} style={{backgroundImage: `url(${example2})`,
+                        backgroundRepeat: "no-repeat",
+                        backgroundSize: "cover"
+                    }} className='example-container-content'></motion.div>
+                    <motion.div whileHover={{ scale: 2 }} style={{backgroundImage: `url(${example3})`,
+                        backgroundRepeat: "no-repeat",
+                        backgroundSize: "cover"
+                    }} className='example-container-content'></motion.div>
+                    <motion.div whileHover={{ scale: 2 }} style={{backgroundImage: `url(${example4})`,
+                        backgroundRepeat: "no-repeat",
+                        backgroundSize: "cover"
+                    }} className='example-container-content'></motion.div>
+                    <motion.div whileHover={{ scale: 2 }} style={{backgroundImage: `url(${example5})`,
+                        backgroundRepeat: "no-repeat",
+                        backgroundSize: "cover"
+                    }} className='example-container-content'></motion.div>
+                    <motion.div whileHover={{ scale: 2 }} style={{backgroundImage: `url(${example6})`,
+                        backgroundRepeat: "no-repeat",
+                        backgroundSize: "cover"
+                    }} className='example-container-content'></motion.div>
+                </div>
+            </div>
         </div>
     )
 

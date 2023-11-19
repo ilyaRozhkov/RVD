@@ -42,9 +42,10 @@
     text-align: center;
     font-size: 36px;
     filter: none;
+    color: #212121;
 }
 .button-carausel{
     border: none;
     outline: none;
-    background-color: #FF5A30;
+    background-color: #FFC107;
 }

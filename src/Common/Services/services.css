@@ -1,0 +1,17 @@
+.services{
+    display: flex;
+    width: 100%;
+    height: 100%;
+    background-color: #FFC107;
+    flex-wrap: nowrap;
+    justify-content: space-evenly;
+    text-align: center;
+}
+.services-container{
+    display: flex;
+    width: 30%;
+    height: 100%;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
