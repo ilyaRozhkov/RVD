@@ -1,0 +1,36 @@
+{
+  "files": {
+    "main.css": "/static/css/main.3cc5a0a2.css",
+    "main.js": "/static/js/main.2c3cce8d.js",
+    "static/media/kompDiagnostic.jpg": "/static/media/kompDiagnostic.cf137713076899517d60.jpg",
+    "static/media/example6.png": "/static/media/example6.0ce9f60a1bcd94efc56c.png",
+    "static/media/Ubuntu-Bold.ttf": "/static/media/Ubuntu-Bold.fec2d0f1431a6114a6ce.ttf",
+    "static/media/Rvd.jpg": "/static/media/Rvd.5904a6f90b3900f4e48d.jpg",
+    "static/media/example5.png": "/static/media/example5.6c89ba31fc5e9799f059.png",
+    "static/media/example1.png": "/static/media/example1.15dbb1776e917a211d23.png",
+    "static/media/example3.png": "/static/media/example3.a92a41630f308d16f6ec.png",
+    "static/media/example2.png": "/static/media/example2.a2bcf13ba164d8fc9305.png",
+    "static/media/about.png": "/static/media/about.78bcd1428c8a8a059abb.png",
+    "static/media/Electric.jpg": "/static/media/Electric.14836da390a239233bfd.jpg",
+    "static/media/example4.png": "/static/media/example4.44d74cc8a02e0e2648c3.png",
+    "static/media/rvd247.jpg": "/static/media/rvd247.ab43378901d9a43d4a07.jpg",
+    "static/media/Logo.png": "/static/media/Logo.bc089f56517ce1deff59.png",
+    "static/media/repair.svg": "/static/media/repair.1db7c4da5cb2e0c97556a91a28655a83.svg",
+    "static/media/Chat.svg": "/static/media/Chat.d9a77307263feb111135706e48ad11bd.svg",
+    "static/media/ruler.svg": "/static/media/ruler.6d897ae767243b336a046760903d1321.svg",
+    "static/media/alarm.svg": "/static/media/alarm.83fe429a4b1933fe543418b6210667d5.svg",
+    "static/media/arrow.svg": "/static/media/arrow.a2d1148746eb0e08bf672fb2bbdda35f.svg",
+    "static/media/iPhone.svg": "/static/media/iPhone.bfb2512f21337c677fac6130fca0e3e5.svg",
+    "static/media/computer.svg": "/static/media/computer.c8abf00f6a227b5170324f25d0cbe8c9.svg",
+    "static/media/mail.svg": "/static/media/mail.ca038e670b90d8d03631d9cf8e7f17ee.svg",
+    "index.html": "/index.html",
+    "static/media/bulldozer.svg": "/static/media/bulldozer.a8ddbf84fcb53d37f262b0b8106c3d21.svg",
+    "static/media/closeModal.svg": "/static/media/closeModal.1230378acd53a2027f4963f921a6405b.svg",
+    "main.3cc5a0a2.css.map": "/static/css/main.3cc5a0a2.css.map",
+    "main.2c3cce8d.js.map": "/static/js/main.2c3cce8d.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.3cc5a0a2.css",
+    "static/js/main.2c3cce8d.js"
+  ]
+}
