@@ -36,3 +36,16 @@
 }
 .example-container-content:hover{
 }
+
+@media (max-width: 821px) {
+    .example-container-content{
+        width: 360px;
+        height: 360px;
+
+    }
+    .example-container-container {
+        width: 100%;
+        position: absolute;
+        margin: 5px 0;
+    }
+}

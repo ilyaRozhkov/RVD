@@ -12,3 +12,30 @@
 .feedback-message{
 
 }
+@media (max-width: 1080px) {
+    .feedback {
+        justify-content: space-around;
+    }
+}
+@media (max-width: 700px) {
+    .feedback-call{
+        width: 250px;
+    }
+    .feedback-message{
+        width: 250px;
+    }
+    .feedback {
+        justify-content: center;
+    }
+}
+@media (max-width: 450px) {
+    .feedback{
+        flex-wrap: wrap;
+    }
+    .feedback-call{
+        height: 70px;
+    }
+    .feedback-message{
+        height: 70px;
+    }
+}

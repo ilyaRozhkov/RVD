@@ -5,7 +5,7 @@
     top: 0;
     left: 0;
     z-index: 100;
-    background-color: #FFC107;
+    background-color: #00BCD4;
 }
 .header-navbar{
     height: 52px;
@@ -30,4 +30,32 @@
 .header-feedback{
     width: 500px;
     height: 100%;
+}
+@media (max-width: 1080px) {
+    .header-hug{
+        width: 300px;
+        height: 100%;
+    }
+    .header-feedback{
+        width: 450px;
+        height: 100%;
+    }
+}
+@media (max-width: 950px) {
+    .header-feedback{
+        width: 65%;
+    }
+    .header-logo{
+        width: 10%;
+    }
+}
+@media (max-width: 700px) {
+    .header-feedback{
+        width: 100%;
+    }
+}
+@media (max-width: 450px) {
+    .header{
+        height: 200px;
+    }
 }

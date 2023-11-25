@@ -16,3 +16,17 @@
     font-size: 18px;
     margin: 0;
 }
+@media (max-width: 426px) {
+    .message-text{
+        margin-left: 11px;
+    }
+    .message-text-us{
+        font-size: 20px;
+    }
+    .message-text-phone{
+        font-size: 20px;
+    }
+    .message{
+        width: 220px;
+    }
+}

@@ -35,7 +35,7 @@ const TimeOutPages = () => {
                             <img src={phone} width={'100px'} height={'100px'}/>
                         </div>
                         <div className='timeOutPages-container-content-item-text bold'>
-                            <p>Сделайте заказ по телефону 8(966)080-10-18 </p>
+                            <p className={'timeOutPages-container-content-item-text-text'}>Сделайте заказ по телефону 8(966)080-10-18 </p>
                         </div>
                     </motion.div>
                     <motion.div custom={2} variants={animationStyle} className='timeOutPages-container-content-item'>
@@ -43,7 +43,7 @@ const TimeOutPages = () => {
                             <img src={alarm} width={'100px'} height={'100px'}/>
                         </div>
                         <div className='timeOutPages-container-content-item-text bold'>
-                            <p>В течение 30 минут мобильная мастерская выедет на ваш объект</p>
+                            <p className={'timeOutPages-container-content-item-text-text'}>В течение 30 минут наши сотрудники осущетвлят выезд на ваш объект</p>
                         </div>
                     </motion.div>
                     <motion.div custom={3} variants={animationStyle} className='timeOutPages-container-content-item'>
@@ -51,7 +51,7 @@ const TimeOutPages = () => {
                             <img src={ruller} width={'100px'} height={'100px'}/>
                         </div>
                         <div className='timeOutPages-container-content-item-text bold'>
-                            <p>На месте мы изготовим любой РВД по вашим параметрам</p>
+                            <p className={'timeOutPages-container-content-item-text-text'}>На месте решим вашу проблему</p>
                         </div>
                     </motion.div>
                 </motion.div>

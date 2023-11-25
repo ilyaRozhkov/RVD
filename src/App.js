@@ -12,13 +12,13 @@ function App() {
   }
   console.log(activityMessage);
   return (
-      <>
+      <div className={'App'}>
         <Header setActivityMessage={changeActivityMessage}/>
           <Main/>
           <Footer />
         <Modal activity={activityMessage} setActivity={changeActivityMessage}/>
 
-      </>
+      </div>
   );
 }
 

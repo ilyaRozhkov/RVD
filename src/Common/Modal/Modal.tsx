@@ -7,7 +7,7 @@ type Props = {
     activity: boolean
     setActivityMessage: ()=>void
 }
-
+const apiKey='61zdbm8ccecmayytpi7nu1xjrkgiioezdokdkkee';
 const Modal : FC<Props> = (props) =>{
     const {activity,setActivity} = props;
 
@@ -18,7 +18,7 @@ const Modal : FC<Props> = (props) =>{
                 <img src={closeimg} alt={'close button'} className='modal-exit' width={'30px'} height={'30px'} onClick={()=>setActivity()}/>
                 <div className='modal-component-content'>
                     <div className='modal-component-content-feedback'>
-                        <ModalLeft/>
+                        <ModalLeft changeActivity={setActivity}/>
                     </div>
                     <div className='modal-component-content-about'>
                         <ModalRight/>

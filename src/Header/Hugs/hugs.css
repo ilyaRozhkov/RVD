@@ -7,13 +7,13 @@
     justify-content: space-evenly;
 }
 .hugs-button{
-    background-color: #FFC107;
+    background-color: #00BCD4;
     border-radius: 5px;
-    border: 1px solid #4f6d9c;
+    border: 1px solid #FF5722;
     outline: none;
     transition: 0.5s;
 }
 .hugs-button:hover{
-    box-shadow: 3px 3px 3px #4f6d9c;
+    box-shadow: 3px 3px 3px #FF5722;
     transition: 0.5s;
 }

@@ -16,3 +16,14 @@
     font-size: 18px;
     margin: 0;
 }
+@media (max-width: 426px) {
+    .call-text-us{
+        font-size: 20px;
+    }
+    .call-text-phone{
+        font-size: 20px;
+    }
+    .call{
+        width: 220px;
+    }
+}

@@ -48,31 +48,32 @@ const Carausel : FC<Props>  = (props) =>{
     };
 
     return (
-            <div className="Container">
-                <button className='button-carausel' onClick={() => beforeItem()}><img src={arrow} width={'20px'} height={'20px'} style={{rotate: '180deg'}} alt='before arrow'/></button>
-                <div className="Content">
-                    {furstLevelData
-                        .filter((item, index) => index == indexItem)
-                        .map((item, index) => (
-                            <div
-                                key={index}
-                                className={'fields ' + newClass}
-                            >
-                                <div style={{backgroundImage: `url(${item.image})`,backgroundRepeat: 'no-repeat',
-                                    backgroundSize: 'cover', width: '100%', height: '100%'}}>
-                                    <div className='content-line-container'>
-                                        <div className='content-line-container-container bold'>
-                                            <p className='content-line-container-container-text bold'>
-                                                {item.title}
-                                            </p>
-                                        </div>
+        <div className="Container">
+            <button className='button-carausel' onClick={() => beforeItem()}><img src={arrow} width={'20px'} height={'20px'} style={{rotate: '180deg'}} alt='before arrow'/></button>
+            <div className="Content">
+                {furstLevelData
+                    .filter((item, index) => index == indexItem)
+                    .map((item, index) => (
+                        <div
+                            key={index}
+                            className={'fields ' + newClass}
+                        >
+                            <div className={'carausel-img'} style={{backgroundImage: `url(${item.image})`}}>
+
+                                <img src={item.image} alt="Nature" className={'carausel-img'}/>
+                                <div className='content-line-container'>
+                                    <div className='content-line-container-container bold'>
+                                        <p className='content-line-container-container-text bold'>
+                                            {item.title}
+                                        </p>
                                     </div>
                                 </div>
                             </div>
-                        ))}
-                </div>
-                <button className='button-carausel' onClick={() => nextItem()}><img src={arrow} width={'20px'} height={'20px'} alt='next arrow'/></button>
+                        </div>
+                    ))}
             </div>
+            <button className='button-carausel' onClick={() => nextItem()}><img src={arrow} width={'20px'} height={'20px'} alt='next arrow'/></button>
+        </div>
     );
 }
 
