@@ -15,9 +15,7 @@ const Example = () => {
     return(
         <div className='example'>
             <div className='example-container'>
-                <div className='example-container-title'>
-                    <h1 className='example-container-title-title bold'>Широкий ассортимент</h1>
-                </div>
+
                 <div className='example-container-container'>
                     <motion.div whileHover={{ scale: 2 }} style={{backgroundImage: `url(${example1})`,
                         backgroundRepeat: "no-repeat",

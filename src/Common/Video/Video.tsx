@@ -5,9 +5,12 @@ import './video.css'
 
 const Video = () =>{
     return <div className={'video'}>
+        <div className='example-container-title'>
+            <h1 className='example-container-title-title bold'>Широкий ассортимент</h1>
+        </div>
         <div className={'video-container'}>
-            <video src={video1} width="360" height="600" controls="controls" autoPlay="true"/>
-            <video src={video2} width="360" height="600" controls="controls" autoPlay="true"/>
+            <video src={video1} width="360" height="550" controls="controls" autoPlay="true"/>
+            <video src={video2} width="360" height="550" controls="controls" autoPlay="true"/>
         </div>
     </div>
 }

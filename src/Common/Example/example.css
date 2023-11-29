@@ -49,3 +49,11 @@
         margin: 5px 0;
     }
 }
+@media (max-width: 770px) {
+    .example-container-container {
+        width: 100%;
+        position: absolute;
+        margin: 5px 0;
+    }
+}
+

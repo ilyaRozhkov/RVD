@@ -27,12 +27,13 @@ const Main = () => {
             <div className='main-first-level services-wrap' style={{position: 'relative', zIndex: '20'}}>
                 <Services/>
             </div>
-            <div className='main-first-level example-wrap' style={{position: 'relative', zIndex: '20'}} id="part3">
-                <Example />
-            </div>
-            <div className='main-first-level video-wrap' style={{position: 'relative', zIndex: '0', top:'-98px'}}>
+            <div className='main-first-level video-wrap' style={{position: 'relative', zIndex: '0'}} id="part3">
                 <Video />
             </div>
+            <div className='main-first-level example-wrap' style={{position: 'relative', zIndex: '0'}} >
+                <Example />
+            </div>
+
         </div>
     )
 }
