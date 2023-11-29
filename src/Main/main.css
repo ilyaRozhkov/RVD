@@ -42,7 +42,7 @@
         height: 1620px;
     }
     .example-wrap{
-        height: 2744px;
+        height: 3205px;
     }
 }
 
@@ -50,9 +50,13 @@
     .services-wrap{
         height: 2009px;
     }
+    .video-wrap{
+        height: 1277px;
+    }
 }
 @media (max-width: 426px) {
     .main-second-level{
         margin-top: 98px;
     }
+
 }

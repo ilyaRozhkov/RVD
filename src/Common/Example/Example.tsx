@@ -7,6 +7,9 @@ import example3 from '../../img/Example/example3.png'
 import example4 from '../../img/Example/example4.png'
 import example5 from '../../img/Example/example5.png'
 import example6 from '../../img/Example/example6.png'
+import example7 from '../../img/Example/electric1.png'
+import example8 from '../../img/Example/electric2.png'
+import example9 from '../../img/Example/video1.MP4'
 const Example = () => {
 
     return(
@@ -37,6 +40,14 @@ const Example = () => {
                         backgroundSize: "cover"
                     }} className='example-container-content'></motion.div>
                     <motion.div whileHover={{ scale: 2 }} style={{backgroundImage: `url(${example6})`,
+                        backgroundRepeat: "no-repeat",
+                        backgroundSize: "cover"
+                    }} className='example-container-content'></motion.div>
+                    <motion.div whileHover={{ scale: 2 }} style={{backgroundImage: `url(${example7})`,
+                        backgroundRepeat: "no-repeat",
+                        backgroundSize: "cover"
+                    }} className='example-container-content'></motion.div>
+                    <motion.div whileHover={{ scale: 2 }} style={{backgroundImage: `url(${example8})`,
                         backgroundRepeat: "no-repeat",
                         backgroundSize: "cover"
                     }} className='example-container-content'></motion.div>

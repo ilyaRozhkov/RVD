@@ -3,6 +3,7 @@ import Carausel from "../Common/Carausel/Carausel.tsx";
 import TimeOutPages from "../Common/TimeOutPages/TimeOutPages.tsx";
 import Services from "../Common/Services/Services.tsx";
 import Example from "../Common/Example/Example.tsx";
+import Video from "../Common/Video/Video.tsx";
 import furstLevelData from '../Data/data.ts'
 
 import './main.css';
@@ -28,6 +29,9 @@ const Main = () => {
             </div>
             <div className='main-first-level example-wrap' style={{position: 'relative', zIndex: '20'}} id="part3">
                 <Example />
+            </div>
+            <div className='main-first-level video-wrap' style={{position: 'relative', zIndex: '0', top:'-98px'}}>
+                <Video />
             </div>
         </div>
     )

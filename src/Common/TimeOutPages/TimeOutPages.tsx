@@ -43,7 +43,7 @@ const TimeOutPages = () => {
                             <img src={alarm} width={'100px'} height={'100px'}/>
                         </div>
                         <div className='timeOutPages-container-content-item-text bold'>
-                            <p className={'timeOutPages-container-content-item-text-text'}>В течение 30 минут наши сотрудники осущетвлят выезд на ваш объект</p>
+                            <p className={'timeOutPages-container-content-item-text-text'}>Наши сотрудники осущетвлят выезд на ваш объект</p>
                         </div>
                     </motion.div>
                     <motion.div custom={3} variants={animationStyle} className='timeOutPages-container-content-item'>

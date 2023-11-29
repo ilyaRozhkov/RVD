@@ -2,7 +2,7 @@
     width: 100%;
     height: 250px;
     position: absolute;
-    top: 3341px;
+    top: 3941px;
     display: flex;
     flex-wrap: nowrap;
     justify-content: space-evenly;
@@ -25,7 +25,7 @@
 }
 @media (max-width: 1024px) {
     .footer{
-        top: 3025px;
+        top: 3625px;
     }
 }
 @media (max-width: 821px) {
@@ -42,12 +42,13 @@
 }
 @media (max-width: 791px) {
     .footer{
-        top: 6363px;
+        top: 8000px;
     }
 
 }
 @media (max-width: 426px){
     .footer{
-        top: 5603px;
+        top: 7206px;
     }
 }
+
